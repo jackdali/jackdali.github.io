@@ -1,0 +1,9 @@
+# Compiled Source
+*.pyc
+# output files
+/output
+/output/*
+create_content.sh
+#virtualenv
+/pblog
+/pblog/*
