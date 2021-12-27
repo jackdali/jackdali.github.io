@@ -12,7 +12,7 @@ body {
   font-size: 100%;
   background-color: #565656;
   color: #FFFFFF;
-  width: 80%;
+  width: 100%;
   display: block;
 }
 
@@ -27,11 +27,9 @@ h4 a { color: inherit !important }
 h5 a { color: inherit !important }
 h6 a { color: inherit !important }
 
-#menu li {
-    display: inline;
-}
 
-#post-list {
+
+#post-list {  
     margin-bottom: 1em;
     margin-top: 1em;
 }
@@ -41,10 +39,10 @@ pre {
 }
 
 #content{
-  min-width: 400px;
+  width: 80%;
   min-height: 200px;
   padding: 1em;
-  margin: 5% 10%;
+  margin: 10% 10%;
   border: thin solid gray;
   border-radius: 5px;
 }
@@ -53,4 +51,54 @@ pre {
 .preview{
   width: 400px;
   height: 180px;
+}
+
+/* header&navbar */
+#jd-home{
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+  padding: 18px 13px 17px 13px;
+  border-right: solid;
+  border-color: #FFFFFF;
+  border-width: 2px;
+  background: #FFF556;
+}
+#jd-home:hover{
+  text-decoration: none;
+}
+#menu li {
+  font-size: 20px;
+  display: inline;
+  padding: 18px 20px 17px 20px;
+}
+#menu li:hover{
+  background: #999999;
+  transition: all 0.4s ease-in-out;
+}
+#menu{
+  display: inline;
+  padding: 17px 0px 17px 0px;
+  border-style: solid;
+  border-width: 1px;
+  position: inherit;
+  top:0px;
+}
+#menu ul{
+  display: inline;
+  font-size: 0;
+  padding:0;
+  margin-bottom:0;
+}
+a.menu-item{
+  color: inherit !important;
+}
+header#banner.body{
+  position: absolute;
+  width: 100%;
+  height: 61px;
+  top: 0;
+  left:0;
+  margin-bottom: 100px;
 }
