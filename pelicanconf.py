@@ -24,12 +24,14 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('tgicon.png', 'https://telegram.org/'),
+          ('tgicon.png', 'https://github.com/jackdali'),
+          ('tgicon.png', '#hackthebox'),
+          ('tgicon.png', '#'))
 
 DEFAULT_PAGINATION = 10
 
-MENUITEMS = [('Home','index.html'),('About','author.html'),('Articles','archives.html'),('Contact','Contact')]
+MENUITEMS = [('Home','index'),('About','pages/about'),('Articles','archives'),('Contact','pages/contact')]
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives'))
 PAGINATED_DIRECT_TEMPLATES = (('index', 'archives'))
 

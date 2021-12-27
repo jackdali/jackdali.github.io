@@ -10,8 +10,7 @@
 </head>
 
 <body id="index" class="home">
-        <header id="banner" class="body">
-          
+        <header id="banner" class="body"> 
           <nav id="menu"><ul>
             <a id="jd-home" href="{{ SITEURL }}/">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
             {% for title, link in MENUITEMS %}
@@ -25,7 +24,13 @@
                 <address id="about" class="vcard body">
                 Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
                 which takes great advantage of <a href="https://www.python.org/">Python</a>.
-                </address><!-- /#about -->
+                </address>
+              <ul id="socials">
+                {% for title, url in SOCIAL %}
+                  <li><a href="{{ url }}"><img id="social-icon" src="{{ SITEURL }}/theme/{{ title }}"></a></li>
+                {% endfor %}
+              </ul>
+                <!-- /#about -->
         </footer><!-- /#contentinfo -->
 </body>
 </html>

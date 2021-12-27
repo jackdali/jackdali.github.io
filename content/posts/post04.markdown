@@ -1,6 +1,6 @@
 Title: A sample article 04
 Date: 2021-03-04
-Category: News
+Category: Test2
 Tags: tag18,tag13,tag14
 Image: post04.jpg
 Summary: Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.

@@ -1,6 +1,6 @@
 Title: A sample article 02
 Date: 2021-03-02
-Category: News
+Category: Test1
 Tags: tag1,tag11,tag2
 Image: post02.jpg
 Summary: Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.

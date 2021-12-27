@@ -10,10 +10,11 @@
 body {
   font-family: JetBrainsMono-Regular;
   font-size: 100%;
-  background-color: #565656;
+  background-color: #999999;
   color: #FFFFFF;
   width: 100%;
   display: block;
+  overflow-x: hidden;
 }
 
 a:link    { color: #FFF556; text-decoration: none;      }
@@ -40,10 +41,11 @@ pre {
 
 #content{
   width: 80%;
-  min-height: 200px;
+  min-height: 300px;
   padding: 1em;
   margin: 10% 10%;
-  border: thin solid gray;
+  background-color: #565656;
+  border: thin solid #FFFFFF;
   border-radius: 5px;
 }
 
@@ -80,8 +82,8 @@ pre {
 #menu{
   display: inline;
   padding: 17px 0px 17px 0px;
-  border-style: solid;
-  border-width: 1px;
+  /* border-style: solid;
+  border-width: 1px; */
   position: inherit;
   top:0px;
 }
@@ -96,9 +98,46 @@ a.menu-item{
 }
 header#banner.body{
   position: absolute;
+  background-color: #565656;
+  border: thin solid #FFFFFF;
   width: 100%;
-  height: 61px;
+  height: 59px;
   top: 0;
   left:0;
   margin-bottom: 100px;
+}
+/* categories navigation at articles page*/
+#categories-nav li{ 
+  display: inline;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* footer */
+#contentinfo{
+  position: absolute;
+  background-color: #565656;
+  border: thin solid #FFFFFF;
+  width: 100%;
+  height: 59px;
+  bottom: 100;
+  left:0;
+  margin-bottom: 100px;
+}
+#socials{
+  display: inline;  
+  padding-left: 400px;  
+}
+#about{
+  display: inline;
+}
+#socials li{
+  display: inline;
+}
+#socials img{
+  padding-top:15px;
+  padding-right: 5px;
+  width: 30px;
+  height: 30px;
 }

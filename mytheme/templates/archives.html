@@ -3,8 +3,14 @@
 <section id="content">
 {% block content_title %}
 <h2>All articles</h2>
+<ul id="categories-nav">
+{% if DISPLAY_CATEGORIES_ON_MENU %}
+{% for cat, null in categories %}
+  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+{% endfor %}
+{% endif %}
 {% endblock %}
-
+</ul>
 <ol id="post-list">
 {% for article in articles_page.object_list %}
         <li><article class="hentry">
