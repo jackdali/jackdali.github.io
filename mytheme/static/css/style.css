@@ -1,0 +1,56 @@
+@font-face {
+    font-family: JetBrainsMono-Regular;
+    src: url(fonts/eot/JetBrainsMono-Regular.eot),
+    url(fonts/ttf/JetBrainsMono-Regular.ttf) format('truetype'),
+    url(fonts/woff/JetBrainsMono-Regular.woff) format('woff');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body {
+  font-family: JetBrainsMono-Regular;
+  font-size: 100%;
+  background-color: #565656;
+  color: #FFFFFF;
+  width: 80%;
+  display: block;
+}
+
+a:link    { color: #FFF556; text-decoration: none;      }
+a:hover   { color: #FFF556; text-decoration: underline; }
+a:visited { color: #FFF556;                             }
+
+h1 a { color: inherit !important }
+h2 a { color: inherit !important }
+h3 a { color: inherit !important }
+h4 a { color: inherit !important }
+h5 a { color: inherit !important }
+h6 a { color: inherit !important }
+
+#menu li {
+    display: inline;
+}
+
+#post-list {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+pre {
+    margin: 2em 1em 2em 4em;
+}
+
+#content{
+  min-width: 400px;
+  min-height: 200px;
+  padding: 1em;
+  margin: 5% 10%;
+  border: thin solid gray;
+  border-radius: 5px;
+}
+
+/* archives.html */
+.preview{
+  width: 400px;
+  height: 180px;
+}
