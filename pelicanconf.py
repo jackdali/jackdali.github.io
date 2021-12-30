@@ -24,10 +24,10 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('tgicon.png', 'https://telegram.org/'),
-          ('tgicon.png', 'https://github.com/jackdali'),
-          ('tgicon.png', '#hackthebox'),
-          ('tgicon.png', '#'))
+SOCIAL = (('tgicon.png', 'https://t.me/DaliJack'),
+          ('giticon.png', 'https://github.com/jackdali'),
+          ('htbicon.svg', 'https://app.hackthebox.com/profile/819988'))
+        #   ('tgicon.png', '#'))
 
 DEFAULT_PAGINATION = 10
 
