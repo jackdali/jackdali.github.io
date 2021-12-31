@@ -27,7 +27,6 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 SOCIAL = (('tgicon.png', 'https://t.me/DaliJack'),
           ('giticon.png', 'https://github.com/jackdali'),
           ('htbicon.svg', 'https://app.hackthebox.com/profile/819988'))
-        #   ('tgicon.png', '#'))
 
 DEFAULT_PAGINATION = 10
 
