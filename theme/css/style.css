@@ -127,7 +127,7 @@ header#banner.body{
 }
 #socials{
   display: inline;  
-  padding-left: 400px;  
+  padding-left: 550px;  
 }
 #about{
   display: inline;
@@ -138,6 +138,6 @@ header#banner.body{
 #socials img{
   padding-top:15px;
   padding-right: 5px;
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
 }
