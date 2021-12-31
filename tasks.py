@@ -25,9 +25,10 @@ CONFIG = {
     'settings_publish': 'publishconf.py',
     # Output path. Can be absolute or relative to tasks.py. Default: 'output'
     'deploy_path': SETTINGS['OUTPUT_PATH'],
-    # Host and port for `serve`
-    'host': 'localhost',
-    'port': 8000,
+    "github_pages_branch": "gh-pages",
+    "commit_message": "'Publish site on {}'".format(datetime.date.today().isoformat()),
+    # Port for `serve`
+    "port": 8000,
 }
 
 @task
